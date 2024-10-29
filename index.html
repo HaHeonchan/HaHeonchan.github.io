@@ -1,47 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>자기소개</title>
+    <title>자기소개 페이지</title>
     <style>
         body {
             font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f0f0f0;
+            color: #333;
             margin: 0;
             padding: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            background-color: #f4f4f9;
         }
         .container {
-            text-align: center;
-            max-width: 500px;
+            width: 80%;
+            max-width: 800px;
+            margin: 50px auto;
+            background: #fff;
             padding: 20px;
-            background-color: #fff;
             border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        h1 {
-            color: #333;
-        }
-        p {
-            color: #555;
-        }
-        a {
+        h1, h2 {
             color: #007bff;
-            text-decoration: none;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            background: #007bff;
+            color: white;
+            padding: 10px;
+            margin: 5px 0;
+            border-radius: 5px;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>유영원</h1>
-        <p>안녕하세요! 저는 컴퓨터공학과 학생으로, IoT와 인공지능 분야에 관심이 많습니다. 학습과 연구에 열정을 가지고 있으며, 실습을 통해 성장해 나가고 있습니다.</p>
-        <p>현재 공부 중인 주요 분야는 딥러닝, 차량 동역학 모델링, 그리고 ROS2입니다.</p>
-        <p>연락처: <a href="mailto:yourname@example.com">yourname@example.com</a></p>
+        <h1>안녕하세요! 제 이름은 name입니다.</h1>
+        <p>반갑습니다! 제 자기소개 페이지에 오신 것을 환영합니다.</p>
+
+        <h2>제 소개</h2>
+        <p>저는 연구와 개발에 대해 큰 관심을 갖고 있는 기술 전공생입니다. 기술을 사용하여 다들에게 확장을 주는 것을 모타르고 싶습니다.</p>
+
+        <h2>개발 스타일</h2>
+        <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>Python</li>
+            <li>React</li>
+            <li>Node.js</li>
+            <li>ROS2</li>
+        </ul>
+
+        <h2>꼼수 또는 하고 싶은 말</h2>
+        <p>제 꼼수는 사람들에게 우리가 만들어내는 기술이 사회에 의미있고, 여러 사람에게 도움이 될 수 있도록 만들는 것입니다. 연구와 현재에 없는 사용성을 살려낼 수 있는 시원을 만들기 위해 노력하고 싶습니다.</p>
     </div>
 </body>
 </html>
+
